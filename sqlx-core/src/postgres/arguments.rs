@@ -51,7 +51,7 @@ pub struct PgArgumentBuffer {
 #[derive(Default)]
 pub struct PgArguments {
     // Types of each bind parameter
-    pub(crate) types: Vec<PgTypeInfo>,
+    pub types: Vec<PgTypeInfo>,
 
     // Buffer of encoded bind parameters
     pub(crate) buffer: PgArgumentBuffer,
