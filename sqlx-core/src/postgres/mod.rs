@@ -17,7 +17,7 @@ mod query_result;
 mod row;
 mod statement;
 mod transaction;
-mod type_info;
+pub mod type_info;
 pub mod types;
 mod value;
 
